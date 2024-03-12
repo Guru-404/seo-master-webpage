@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 7%;
+	overflow: hidden;
+}
+
+/* Navbar Section */
+
+.navbar-container {
+	height: 20vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: 1;
+}
+
+.navbar-container div:first-child {
+	width: 15%;
+}
+
+.navbar-container div img {
+	width: 9rem;
+	padding-top: 7px;
+}
+
+.grow-list {
+	display: flex;
+	width: 60%;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.list {
+	display: flex;
+	align-items: center;
+}
+
+.list-item {
+	list-style: none;
+	margin-right: 5rem;
+	color: #808080;
+	cursor: pointer;
+}
+
+li:first-child {
+	color: #000000;
+	font-weight: 500;
+}
+
+.button-group {
+	display: flex;
+	justify-content: flex-end;
+	width: 25%;
+	margin-right: 7%;
+}
+
+.button-group .nav-button {
+	background-color: #5955b3;
+	color: #ffffff;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+/* Hero Section */
+
+.banner-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner-container div:first-child {
+	flex-basis: 40%;
+	position: relative;
+}
+
+.heading-text {
+	font-size: 4.5rem;
+	line-height: 90px;
+	margin-right: 4rem;
+	color: #3c2f60;
+	font-weight: 600;
+}
+
+span {
+	color: #5955b3;
+}
+
+.description {
+	color: #828282;
+	padding-top: 2rem;
+	margin-right: 5rem;
+}
+
+.banner-container div button {
+	margin-top: 4rem;
+	background-color: #5955b3;
+	color: #ffffff;
+	padding: 20px 40px;
+	border: none;
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.banner-container div:last-child {
+	flex-basis: 60%;
+	position: relative;
+}
+
+.banner-container div img {
+	width: 100%;
+}
