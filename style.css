@@ -46,9 +46,15 @@
 
 .list-item {
 	list-style: none;
-	margin-right: 5rem;
+	margin-right: 3.5rem;
 	color: #808080;
 	cursor: pointer;
+	font-size: 1.25rem;
+}
+
+.list-item:hover {
+	color: #000000;
+	font-weight: 500;
 }
 
 li:first-child {
@@ -72,6 +78,10 @@ li:first-child {
 	font-weight: 500;
 	font-size: 1rem;
 	cursor: pointer;
+}
+
+.button-group .nav-button:hover {
+	background-color: #373384;
 }
 
 /* Hero Section */
@@ -116,6 +126,10 @@ span {
 	font-size: 1rem;
 }
 
+.banner-container div button:hover {
+	background-color: #373384;
+}
+
 .banner-container div:last-child {
 	flex-basis: 60%;
 	position: relative;
@@ -124,3 +138,51 @@ span {
 .banner-container div img {
 	width: 100%;
 }
+
+/* Footer Section */
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 10rem 0rem 2.5rem;
+	row-gap: 5rem;
+  }
+  
+  .footer-logo {
+	padding: 0 2rem;
+	width: 20%;
+  }
+
+  .footer-logo img {
+	width: 35%;
+  }
+  
+  .footer-list {
+	width: 60%;
+	padding: 0 2rem;
+  }
+  
+  .footer-list ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	column-gap: 5rem;
+  }
+
+  .footer-list li {
+	color: #808080;
+	cursor: pointer;
+	font-size: 1rem;
+  }
+  
+  .footer-space {
+	width: 20%;
+  }
+  
+  .footer-list ul li:hover {
+	color: #000000;
+	font-weight: 500;
+  }
